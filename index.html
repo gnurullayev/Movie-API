@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>API</title>
+</head>
+<body class="bg-danger bg-opacity-10">
+    <header class="header ">
+        <div class="header__container container">
+            <div class="header__inner d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="./imgs/Movies!_logo.svg.png" alt="">
+                </a>
+        
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Movies</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="btn btn-outline-primary text-dark">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="mein__hero hero">
+            <div class="container">
+                <form class="hero__form row js-form">
+                    <div class="col-md-8">
+                        <input id="js-input" class="w-100 form-control" type="text" placeholder="Kino nomini kiriting" autocomplete="off">
+                    </div>
+
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <button class="btn btn-secondary w-75">Yuborish</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="mein__movies movies my-5">
+            <div class="container">
+               <div class="movies__inner">
+                    <ul class="movies__list js-movies-list row list-unstyled gy-4">
+                        <!-- <li class="col-md-3">
+                        <div class="card">
+                                <img class="card-img" src="https://picsum.photos/id/1/320/280" alt="" >
+                                <h3 class="card-title p-2">filim</h3>
+                                <p class="card-text px-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, molestiae.
+                                </p>
+                        </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="movies__paginations  my-5">
+                        <div class="js-movies-paginations d-flex justify-content-center align-items-center">
+
+                        </div>
+                        <p class="text text-center fs-1 js-movies-page">Page: 1</p>
+                    </div>
+               </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
